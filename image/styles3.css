@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    
+}
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header .navbar a:hover{
+    color: var(--pink);
+}
+
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ac2890;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-details {
+    margin-left: 20px;
+    max-width: 500px;
+}
+
+.product-details h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.availability, .product-code, .size-options, .date-picker, .time-options, .quantity {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.size-options button, .time-options button, .buttons button {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.size-options button:hover, .time-options button:hover, .buttons button:hover {
+    background-color: #ddd;
+}
+
+.date-picker input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.quantity input {
+    width: 60px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-to-cart {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.buy-now {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.add-to-cart:hover {
+    background-color: #e6b800;
+}
+
+.buy-now:hover {
+    background-color: #45a049;
+}

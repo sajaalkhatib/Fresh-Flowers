@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="product-container">
+            <div class="product-image">
+                <img src="8.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h1>Mixed pink hand bouquet</h1>
+                <p class="price">JD 17.99</p>
+                <p class="availability">Available</p>
+                <p class="product-code">code: JGV083</p>
+                
+                <form>
+                    <div class="size-options">
+                        <label for="size">size:</label>
+                        <button type="button">middle</button>
+                        <button type="button">large(+JD 5.00)</button>
+                    </div>
+                    <div class="date-picker">
+                        <label for="date">received date:</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="time-options">
+                        <label for="time">Time of receipt:</label>
+                        <button type="button">10:00 Pm  - 12:00 Am</button>
+                        <button type="button">12:00 pm  - 2:00 pm</button>
+                        
+                        
+                    </div>
+                    <div class="quantity">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" name="quantity" value="1" min="1">
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="add-to-cart" style="background-color: rgb(217, 143, 183);">Add to cart</button>
+                        <button type="button" class="buy-now" style="background-color: rgb(217, 143, 183);">Immediate purchase</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
